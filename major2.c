@@ -1,5 +1,5 @@
 /*
-Description : Implemenation of a Simple Shell which can
+Description : Implementation of a Simple Shell which can
 interpret any unix commands and your own commands
 For compilation : gcc myShell.c or cc myShell.c
 To run : ./a.out
@@ -27,7 +27,7 @@ char* progName;
 typedef enum { CD, EXIT, CMD, PWD, ECHO } CMDTYPE;
 
 /*
-Funtion that is executed at the start of the shell
+Function that is executed at the start of the shell
 */
 
 void init()
@@ -56,7 +56,6 @@ void showPrompt()
 
 void showWelcomeScreen()
 {
-	// printf("Welcome to GAK Shell...\n");
 }
 
 /*
